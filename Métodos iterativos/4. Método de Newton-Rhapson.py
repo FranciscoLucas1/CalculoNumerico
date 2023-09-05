@@ -122,11 +122,11 @@ while True:
                 xi = x
 
                 i += 1
-                if math.fabs(func(xi, f)) < p:
+                if math.fabs(func(xi, f)) < p or i > 99:
                     dados_resultados.append([i, xi, func(xi, f)])
                     print(f"   {i:2d}    | {xi:12.6f} | {func(xi,f):14.6f} |")
                     break
-
+                        
             print("\033[1;32m\n->>> Informações <<<-\033[m")
             print(f"\033[1mO valor da raiz é aproximadamente: {xi:.6f}\033[m")
             print(f"\033[1mf({xi:.6f}) = {func(xi,f):.6f}\033[m")
