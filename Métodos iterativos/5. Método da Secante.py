@@ -96,8 +96,8 @@ while True:
         case "1":
             limparT()
             f = input("Digite a função desejada: ")
-            x0 = float(input("Digite a primeira aproximação inicial (x0)"))
-            x1 = float(input("Digite a segunda aproximação inicial (x1)"))
+            x0 = float(input("Digite a primeira aproximação inicial (x0): "))
+            x1 = float(input("Digite a segunda aproximação inicial (x1): "))
             p = notacao(input("Digite o valor de precisão desejado: "))
 
             xi = 0.0
