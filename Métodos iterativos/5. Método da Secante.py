@@ -113,7 +113,8 @@ while True:
             cabecalho_info = [
                 "Informações:",
                 f"Função escolhida: {f}",
-                f"Aproximação inicial (x0): {x0}",
+                f"Aproximação (x0): {x0}",
+                f"Aproximação (x1): {x1}"
                 f"Precisão: {p}",
             ]
             cabecalho_resultados = ["Iteração", "Valor de x", "Valor de f(x)"]
